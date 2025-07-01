@@ -18,6 +18,6 @@ Explained the command above:
 
 # Example image
 ---
-![alt text](./example/RBAC Tools.png)
+![alt text](./example/RBAC_Tools.png)
 
 

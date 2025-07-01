@@ -149,13 +149,13 @@ def post_request(token, url, w):
         response = requests.get(url, json=payload, headers=headers)
         status_code = response.status_code
         if status_code == 200:
-            color = "\033[92m"  # Green
+            color = GREEN  # Green
         elif status_code == 404:
-            color = "\033[93m"  # Yellow
+            color = YELLOW  # Yellow
         elif status_code == 403:
-            color = "\033[91m"  # Red
+            color = RED  # Red
         else:
-            color = "\033[96m"  # Cyan
+            color = CYAN  # Cyan
         try:
             data = response.json()
             data = data.get("message")

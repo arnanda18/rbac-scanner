@@ -31,7 +31,7 @@ def banner():
         control weaknesses or Insecure Direct Object References (IDOR) vulnerabilities in API endpoints.By utilizing a custom
         wordlist, RBAC-Enum scans all possible access scenarios and analyzes response messages from the target system to
         detect potential vulnerabilities. To contribute more for this open source tools and to enhance that see at  
-        {YELLOW}https://github.com/arnanda18?tab=repositories.{RESET}
+        {YELLOW}https://github.com/arnanda18/rbac-scanner{RESET}
 
         Usage: python rbacenum.py -u https://example.com -U user -p password -w /path/to/file/wordlist -x POST
         
